@@ -46,7 +46,7 @@ int main(void)
 	printf("[1] Set Bit\n");
 	printf("[2] Clear Bit\n");
 	printf("[3] Toggle Bit\n");
-	printf("Bitte Operation auswählen\n");
+	printf("Bitte Operation auswaehlen\n");
 	scanf("%i", &job);
 	printf("Bitte Variable eingeben\n");
 	scanf("%i", &variable);
@@ -61,7 +61,7 @@ int main(void)
 		printf("\n");
 		break;
 	case 2:
-		printf("Löschen\n");
+		printf("Loeschen\n");
 		printf("Ergebnis ist %i", clearBit(variable, bit));
 		printf("\n");
 		break;
@@ -71,7 +71,7 @@ int main(void)
 		printf("\n");
 		break;
 	default:
-		printf("Angaben ungültig\n");
+		printf("Angaben ungÃ¼ltig\n");
 		break;
 	}
 
